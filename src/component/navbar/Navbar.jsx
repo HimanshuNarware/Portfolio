@@ -1,3 +1,4 @@
+import React from "react";
 import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 import astroid from '../../assets/asteroid-2.svg';
 
