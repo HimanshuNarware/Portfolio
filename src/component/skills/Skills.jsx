@@ -31,7 +31,7 @@ import linux from '../../assets/Linux.svg';
 import githubActions from '../../assets/GitHub Actions.svg';
 import sql from '../../assets/sql.svg';
 import insomnia from '../../assets/Insomnia.svg';
-import photoshop from '../../assets/Adobe photoshop.svg';
+import photoshop from '../../assets/Adobe Photoshop.svg';
 // const dummyImage = 'https://placehold.co/10/transparent/FF00';
 
 const techStack = [
