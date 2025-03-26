@@ -1,7 +1,7 @@
 import React from 'react'
 import '../page/utilities.css'
 import github from '../../assets/github.svg'  
-import chrome from '../../assets/chrome.svg'
+import chrome from '../../assets/Chrome.svg'
 // src\component\page\utilities.css
 
 function Card({data}) {
