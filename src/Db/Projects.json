@@ -1,0 +1,59 @@
+{
+    "projects": [
+      {
+        "date": "2023-08-15",
+        "name": "DevLabs - Free Tools Platform",
+        "github": "https://github.com/your-username/devlabs",
+        "live": "https://devlabs.example.com",
+        "image": "https://i.pinimg.com/736x/4b/cb/d9/4bcbd9d8b2d391803c4c338171589e7f.jpg",
+        "description": "A platform offering 400+ free tools for students and developers, built with React.js and Node.js.",
+        "tech":"React.js, Node.js, MongoDB, Express.js, Bootstrap, HTML, CSS, CI/CD "
+      },
+      {
+        "date": "2024-01-10",
+        "name": "CareerZunction - Internship Portal",
+        "github": "https://github.com/your-username/careerZunction",
+        "live": "https://careerzunction.example.com",
+        "image": "https://i.pinimg.com/736x/b3/41/99/b34199143be495a052caf722aa467602.jpg",
+        "description": "A web portal providing 200+ internship opportunities for students,like hackathons and open source programs.",
+        "tech":"React.js, Node.js, MongoDB, Express.js, Bootstrap, HTML, CSS, CI/CD "
+      },
+      {
+        "date": "2024-02-20",
+        "name": "tiny-url, Url Shortener ",
+        "github": "https://github.com/HimanshuNarware/short_Url",
+        "live": "short-url-tau-rose.vercel.app/",
+        "image": "https://i.pinimg.com/736x/b5/af/6c/b5af6cfbb3c08496809c236804b42d6a.jpg",
+        "description": "Free tool to short your url.",
+        "tech":"React.js, Node.js, MongoDB, Express.js, Bootstrap, HTML, CSS, CI/CD "
+      },
+      {
+        "date": "2024-02-20",
+        "name": "ChitChat - Social Media Application",
+        "github": "https://github.com/HimanshuNarware/Client_App",
+        "live": "client-app-two-kappa.vercel.app",
+        "image": "https://i.pinimg.com/736x/33/d2/30/33d2304e604d59dd74c4cbfaa1c324aa.jpg",
+        "description": "ChitChat is a social media application that use to connect people around the word.",
+        "tech":"React.js, Node.js, MongoDB, Express.js, Bootstrap, HTML, CSS, CI/CD "
+      },
+      {
+        "date": "2024-02-20",
+        "name": "DeDanaDan - News Application",
+        "github": "https://github.com/HimanshuNarware/DeDanaDan_News_App",
+        "live": "https://github.com/HimanshuNarware/DeDanaDan_News_App",
+        "image": "https://i.pinimg.com/736x/ef/ca/19/efca19161c29abad02d4ef5b87f476fc.jpg",
+        "description": "denanadan is news application use to provide news context in 60 word.",
+        "tech":"React.js, Node.js, MongoDB, Express.js, Bootstrap, HTML, CSS, CI/CD "
+      },
+      {
+        "date": "2024-02-20",
+        "name": "Amazone Application",
+        "github": "amazon-clone-rose-five.vercel.app/",
+        "live": "amazon-clone-rose-five.vercel.app/",
+        "image": "https://i.pinimg.com/736x/b8/b7/84/b8b784b22c2b2d8012aa10d3a2399aac.jpg",
+        "description": "Amazone clone.",
+        "tech":"React.js, Node.js, MongoDB, Express.js, Bootstrap, HTML, CSS, CI/CD "
+      }
+    ]
+  }
+  
