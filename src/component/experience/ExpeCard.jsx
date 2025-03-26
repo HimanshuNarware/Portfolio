@@ -1,13 +1,4 @@
 import React from 'react'
-import image from '../../assets/images/amazon clone.png'
-import dwoc from '../../assets/images/dwoc.png'
-import woss from '../../assets/images/full web.png'
-import gssoc from '../../assets/images/gssoc.png'
-import hacktomberFest from '../../assets/images/hacktomber.png'
-import kwoc from '../../assets/images/kwoc.png'
-import slop from '../../assets/images/slop.png'
-import ssoc from '../../assets/images/ssoc.jpg'
-import google from '../../assets/images/google.webp'
 function ExpeCard({data}) {
   // console.log(data)
 

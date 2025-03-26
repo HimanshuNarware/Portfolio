@@ -30,12 +30,8 @@ import sql_2 from '../../assets/sql-2.svg';
 import bootstrap from '../../assets/bootstrap.svg';
 import postman from '../../assets/postman.svg';
 import express from '../../assets/expressjs-ar21.svg';
-import postgresql from '../../assets/PostgresSQL.svg';
-
-import npm from '../../assets/npm.svg';
 import linux from '../../assets/linux.svg';
 import githubActions from '../../assets/GitHub Actions.svg';
-import webpack from '../../assets/webpack.svg';
 import sql from '../../assets/sql.svg';
 import insomnia from '../../assets/insomnia.svg';
 import photoshop from '../../assets/Adobe photoshop.svg';
