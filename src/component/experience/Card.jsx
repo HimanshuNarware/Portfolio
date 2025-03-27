@@ -5,8 +5,8 @@ import chrome from '../../assets/Chrome.svg'
 // src\component\page\utilities.css
 
 function Card({data}) {
-  // console.log(data)e
-  return (
+  console.log(data)
+    return (
 <div className="flex flex-col  p-3 rounded  bg-gradient-to-t from-[rgb(20,21,21)] to-[#181818]">
   <div className="flex flex-row gap-2">
   <div>
@@ -23,10 +23,15 @@ function Card({data}) {
 
     <div className='flex gap-2.5'>
       <div className="h-9 rounded mt-2 text-center border bg-gray-700 p-1 w-10">
-        <img src={github} alt="github" className=''/>
+        <img src={github} alt="github" className=''
+        onClick={()=>window.redirect(data.github)}
+        />
       </div>
     <div className="h-9 rounded mt-2  text-center  p-1 w-10  ">
-  <img src={chrome} className="-mt-0.5"alt="" />
+  <img src={chrome} className="-mt-0.5"alt="" 
+  onClick={()=>window.open("https://"+  data?.live,"_blank")} 
+  
+  />
     </div>
 
     </div>
