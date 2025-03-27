@@ -27,8 +27,10 @@ function ExpeCard({data}) {
       {data.organization}
     </h3>
     <p className="text-gray-400 text-sm leading-relaxed">
-      Description-It's never been easier to setup custom SSR (Server-Side Rendering), 
-      or build your own SSR framework.
+
+      {data.positions[0].description[0]}
+      {/* Description-It's never been easier to setup custom SSR (Server-Side Rendering), 
+      or build your own SSR framework. */}
     </p>
   </div>
   )

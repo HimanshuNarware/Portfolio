@@ -8,7 +8,6 @@ import Project from './component/projects/Project'
 import Contact from './component/contact/Contact'
 import Blog from './component/blog/Blog'
 import Footer from './component/footer/Footer'
-// import Test from './Test'
 
 function App() {
 

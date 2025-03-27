@@ -3,8 +3,8 @@
       {
         "date": "2023-08-15",
         "name": "DevLabs - Free Tools Platform",
-        "github": "https://github.com/your-username/devlabs",
-        "live": "https://devlabs.example.com",
+        "github": "https://github.com/HimanshuNarware/Devlabs",
+        "live": "devlabs-one.vercel.app/",
         "image": "https://i.pinimg.com/736x/4b/cb/d9/4bcbd9d8b2d391803c4c338171589e7f.jpg",
         "description": "A platform offering 400+ free tools for students and developers, built with React.js and Node.js.",
         "tech":"React.js, Node.js, MongoDB, Express.js, Bootstrap, HTML, CSS, CI/CD "
@@ -12,8 +12,8 @@
       {
         "date": "2024-01-10",
         "name": "CareerZunction - Internship Portal",
-        "github": "https://github.com/your-username/careerZunction",
-        "live": "https://careerzunction.example.com",
+        "github": "https://github.com/HimanshuNarware/CareerZunction_Intern",
+        "live": "career-zunction.vercel.app",
         "image": "https://i.pinimg.com/736x/b3/41/99/b34199143be495a052caf722aa467602.jpg",
         "description": "A web portal providing 200+ internship opportunities for students,like hackathons and open source programs.",
         "tech":"React.js, Node.js, MongoDB, Express.js, Bootstrap, HTML, CSS, CI/CD "
