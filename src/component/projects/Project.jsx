@@ -5,7 +5,7 @@ import {projects} from '../../Db/Projects.json'
 
 function Project() {
   return (
-    <div id='projects' className='parent lg:pt-15'>    <div className="bg-[#101010] text-center linear p-10 text-white protest-riot-regular text-5xl font-color gradient-text ">
+    <div id='projects' className='parent lg:pt-15'>    <div className="bg-[#101010] text-center linear p-10 text-white protest-riot-regular text-5xl font-color gradient-text max-md:text-3xl">
     Building for change !
 Project’s
 
