@@ -1,215 +1,210 @@
 {
-    "experience": [
-        {
-            "organization": "Web Optimization Software Solution",
-           
-            "image":"https://gcdnb.pbrd.co/images/c8C8sKwIVtxl.png?o=1",
-             "positions": [
-              {
-                "title": "SDE  ",
-                "duration": "jan'25 - (present)",
-                "location": "India",
-                "description": [
-                    "Developed and optimized scalable, responsive web applications using React.js, JavaScript, and CSS, enhancing UI/UX.",
-                    " Integrated WebSocket for real-time updates and chat functionality, improving user engagement.",
+  "experience": [
+      {
+          "organization": "Web Optimization Software Solution",
+         
+          "image":"https://gcdnb.pbrd.co/images/c8C8sKwIVtxl.png?o=1",
+           "positions": [
+            {
+              "title": "SDE  ",
+              "duration": "jan'25 - (present)",
+              "location": "India",
+              "description": [
+                  "Developed and optimized scalable, responsive web applications using React.js, Node.js, and UI/UX.",
+                  " Integrated WebSocket for real-time updates and chat functionality, improving user engagement.",
 
-   "Integrated JWT and OAuth 2.0 for secure authentication and authorization, ensuring robust access control for users.",
- " Strengthened web security by using cookies to safeguard session data and implemented CI/CD pipelines using GitHub Actions for automated deployment"
+ "Integrated JWT and OAuth 2.0 for secure authentication and authorization, ensuring robust access control for users.",
+" Strengthened web security by using cookies to safeguard session data and implemented CI/CD pipelines using GitHub Actions for automated deployment"
 
-                ]
-              }
-            ]
-          },
-      {
-        "organization": "GirlScript Summer of Code",
-        
-        "image":"https://gcdnb.pbrd.co/images/lx9mMDIwPerl.png?o=1",
-        "positions": [
-          {
-            "title": "Project Manager",
-            "duration": "May'24 - Aug'24",
-            "location": "India",
-            "description": [
-              "Selected for the Project Manager role.",
-              "Led and coordinated multiple open-source projects.",
-              "Mentored contributors and facilitated project management activities."
-            ]
-          },
-          {
-            "title": "Campus Ambassador",
-            "duration": "April'24 - Aug'24 ",
-            "location": "India",
-            "description": [
-              "Promoted GirlScript Summer of Code within campus communities.",
-              "Encouraged students to participate in open-source projects."
-            ]
-          }
-        ]
-      },
-      {
-        "organization": "Google Developer Student Clubs",
-        
-        "image":"https://gcdnb.pbrd.co/images/8XCgPtCh7OpM.webp?o=1",
-        "positions": [
-          {
-            "title": "GDSC Lead",
-            "duration": "Aug'23 - Jun'24",
-            "location": "India",
-            "description": [
-              "Led the Google Developer Student Club at the university.",
-              "Organized workshops, hackathons, and technical sessions.",
-              "Helped students learn and connect with industry experts."
-            ]
-          }
-        ]
-      },
-      {
-        "organization": "GirlScript Summer of Code",
-        "image":"https://gcdnb.pbrd.co/images/lx9mMDIwPerl.png?o=1",
-        "positions": [
-          {
-            "title": "Software engineer",
-            "duration": "May'24 - Aug'24",
-            "location": "India",
-            "description": [
-              "Selected for the Project Manager role.",
-              "Led and coordinated multiple open-source projects.",
-              "Mentored contributors and facilitated project management activities."
-            ]
-          },
-          {
-            "title": "Campus Ambassador",
-            "duration": "April'24 - Aug'24",
-            "location": "India",
-            "description": [
-              "Promoted GirlScript Summer of Code within campus communities.",
-              "Encouraged students to participate in open-source projects."
-            ]
-          }
-        ]
-      },
-      {
-        "organization": "SLop 3.0",
-        "image":"https://gcdnb.pbrd.co/images/Ab9cvvlUpvvL.png?o=1",
-        "positions": [
-          {
-            "title": "Fullstack Dev",
-            "duration": "yyyy-mm-dd",
-            "location": "Indiana, United States",
-            "description": [
-              "Contributed to multiple open-source projects.",
-              "Engaged in collaborative coding and community discussions."
-            ]
-          }
-        ]
-      },
-      {
-        "organization": "Delta Winter of Code",
-       
-        "image":"https://gcdnb.pbrd.co/images/SxmiRS4yXvNq.png?o=1",
-        "positions": [
-          {
-            "title": "Mentor",
-            "duration": "Jan'24 - March'24 ",
-            "location": "India",
-            "description": [
-              "Guided contributors in open-source development.",
-              "Reviewed and merged pull requests.",
-              "Provided feedback on coding best practices."
-            ]
-          }
-        ]
-      },
-      {
-        "organization": "Social Winter of Code",
-       
-        "image":"https://gcdnb.pbrd.co/images/BNg1XYTNO6fD.png?o=1",
-        "positions": [
-          {
-            "title": "Project Admin",
-            "duration": "Dec'23 - Feb'24",
-            "location": "India",
-            "description": [
-              "Led multiple open-source projects.",
-              "Mentored contributors and ensured quality contributions.",
-              "Coordinated with teams to manage project timelines."
-            ]
-          },
-          {
-            "title": "Mentor",
-            "duration": "Dec'23 - Feb'24",
-            "location": "India",
-            "description": [
-              "Provided technical guidance to contributors.",
-              "Reviewed pull requests and resolved issues."
-            ]
-          },
-          {
-            "title": "Contributor",
-            "duration": "Oct'23 - Feb'24",
-            "location": "India",
-            "description": [
-              "Actively contributed to open-source projects.",
-              "Engaged in debugging and optimizing code."
-            ]
-          },
-          {
-            "title": "Campus Ambassador",
-            "duration": "Nov'23 - Jan'24",
-            "location": "India",
-            "description": [
-              "Promoted open-source culture within the university.",
-              "Organized workshops and awareness campaigns.",
-              "Encouraged student participation in SWOC projects."
-            ]
-          }
-        ]
-      },
-      {
-        "organization": "Kharagpur Open Source Society",
-        "image":"https://gcdnb.pbrd.co/images/qDFXrX68QLYw.png?o=1",
-        "positions": [
-          {
-            "title": "Project Admin",
-            "duration": "Dec'23 - Jan'24",
-            "location": "India",
-            "description": [
-              "Led open-source projects and managed contributors.",
-              "Provided mentorship to new contributors.",
-              "Coordinated issue tracking and PR reviews."
-            ]
-          }
-        ]
-      },
-      {
-        "organization": "Hacktoberfest",
-        
-
-        "image":"https://gcdnb.pbrd.co/images/KqYMODFuAyLd.png?o=1",
-        "positions": [
-          {
-            "title": "Maintainer",
-            "duration": "Oct'23 - Nov'23",
-            "location": "India",
-            "description": [
-              "Mentored and guided over 35+ active contributors.",
-              "Managed a GitHub repository with 55+ forks and 85+ PRs.",
-              "Encouraged community participation in open-source."
-            ]
-          },
-          {
-            "title": "Backend Developer",
-            "duration": "Oct'23 - Nov'23 (2 months)",
-            "location": "India",
-            "description": [
-              "Contributed to open-source repositories.",
-              "Fixed bugs and optimized code performance."
-            ]
-          }
-        ]
-      }
-     
+              ]
+            }
+          ]
+        },
+    {
+      "organization": "GirlScript Summer of Code",
       
-    ]
-  }
-  
+      "image":"https://gcdnb.pbrd.co/images/lx9mMDIwPerl.png?o=1",
+      "positions": [
+        {
+          "title": "Project Manager",
+          "duration": "May'24 - Aug'24",
+          "location": "India",
+          "description": [
+            "Selected for the Project Manager role. Led and coordinated multiple open-source projects.",
+            "Mentored contributors and facilitated project management activities."
+          ]
+        },
+        {
+          "title": "Campus Ambassador",
+          "duration": "April'24 - Aug'24 ",
+          "location": "India",
+          "description": [
+            "Promoted GirlScript Summer of Code within campus communities.",
+            "Encouraged students to participate in open-source projects."
+          ]
+        }
+      ]
+    },
+    {
+      "organization": "Google Developer Student Clubs",
+      
+      "image":"https://gcdnb.pbrd.co/images/8XCgPtCh7OpM.webp?o=1",
+      "positions": [
+        {
+          "title": "GDSC Lead",
+          "duration": "Aug'23 - Jun'24",
+          "location": "India",
+          "description": [
+            "Led the Developer Student Club at the university. Organized hackathons, and technical sessions.",
+            "Helped students learn and connect with industry experts."
+          ]
+        }
+      ]
+    },
+    {
+      "organization": "GirlScript Summer of Code",
+      "image":"https://gcdnb.pbrd.co/images/lx9mMDIwPerl.png?o=1",
+      "positions": [
+        {
+          "title": "Software engineer",
+          "duration": "May'24 - Aug'24",
+          "location": "India",
+          "description": [
+            "Selected for the Contributor role. Work on 50 + repositories. and recognise as top contributor.",
+            "Mentored contributors and facilitated project management activities."
+          ]
+        },
+        {
+          "title": "Campus Ambassador",
+          "duration": "April'24 - Aug'24",
+          "location": "India",
+          "description": [
+            "Promoted GirlScript Summer of Code within campus communities.",
+            "Encouraged students to participate in open-source projects."
+          ]
+        }
+      ]
+    },
+    {
+      "organization": "SLop 3.0",
+      "image":"https://gcdnb.pbrd.co/images/Ab9cvvlUpvvL.png?o=1",
+      "positions": [
+        {
+          "title": "Fullstack Dev",
+          "duration": "yyyy-mm-dd",
+          "location": "Indiana, United States",
+          "description": [
+            "Contributed to multiple open-source projects. Engaged in collaborative coding and community ."
+          ]
+        }
+      ]
+    },
+    {
+      "organization": "Delta Winter of Code",
+     
+      "image":"https://gcdnb.pbrd.co/images/SxmiRS4yXvNq.png?o=1",
+      "positions": [
+        {
+          "title": "Mentor",
+          "duration": "Jan'24 - March'24 ",
+          "location": "India",
+          "description": [
+            "Guided contributors in open-source development.",
+            "Reviewed and merged pull requests.",
+            "Provided feedback on coding best practices."
+          ]
+        }
+      ]
+    },
+    {
+      "organization": "Social Winter of Code",
+     
+      "image":"https://gcdnb.pbrd.co/images/BNg1XYTNO6fD.png?o=1",
+      "positions": [
+        {
+          "title": "Project Admin",
+          "duration": "Dec'23 - Feb'24",
+          "location": "India",
+          "description": [
+            "Led multiple open-source projects.",
+            "Mentored contributors and ensured quality contributions.",
+            "Coordinated with teams to manage project timelines."
+          ]
+        },
+        {
+          "title": "Mentor",
+          "duration": "Dec'23 - Feb'24",
+          "location": "India",
+          "description": [
+            "Provided technical guidance to contributors.",
+            "Reviewed pull requests and resolved issues."
+          ]
+        },
+        {
+          "title": "Contributor",
+          "duration": "Oct'23 - Feb'24",
+          "location": "India",
+          "description": [
+            "Actively contributed to open-source projects.",
+            "Engaged in debugging and optimizing code."
+          ]
+        },
+        {
+          "title": "Campus Ambassador",
+          "duration": "Nov'23 - Jan'24",
+          "location": "India",
+          "description": [
+            "Promoted open-source culture within the university.",
+            "Organized workshops and awareness campaigns.",
+            "Encouraged student participation in SWOC projects."
+          ]
+        }
+      ]
+    },
+    {
+      "organization": "Kharagpur Open Source Society",
+      "image":"https://gcdnb.pbrd.co/images/qDFXrX68QLYw.png?o=1",
+      "positions": [
+        {
+          "title": "Project Admin",
+          "duration": "Dec'23 - Jan'24",
+          "location": "India",
+          "description": [
+            "Led open-source projects and managed contributors.",
+            "Provided mentorship to new contributors.",
+            "Coordinated issue tracking and PR reviews."
+          ]
+        }
+      ]
+    },
+    {
+      "organization": "Hacktoberfest",
+      
+
+      "image":"https://gcdnb.pbrd.co/images/KqYMODFuAyLd.png?o=1",
+      "positions": [
+        {
+          "title": "Maintainer",
+          "duration": "Oct'23 - Nov'23",
+          "location": "India",
+          "description": [
+            "Mentored and guided over 35+ active contributors.",
+            "Managed a GitHub repository with 55+ forks and 85+ PRs.",
+            "Encouraged community participation in open-source."
+          ]
+        },
+        {
+          "title": "Backend Developer",
+          "duration": "Oct'23 - Nov'23 (2 months)",
+          "location": "India",
+          "description": [
+            "Contributed to open-source repositories.",
+            "Fixed bugs and optimized code performance."
+          ]
+        }
+      ]
+    }
+   
+    
+  ]
+}

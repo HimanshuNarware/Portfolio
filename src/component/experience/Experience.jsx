@@ -9,7 +9,7 @@ import experienceDb from '../../Db/Exprerience.json';
 function Experience() {
   return (
     <div id='experience' className="min-h-screen bg-[#101010] flex flex-col justify-center items-center gap-10 p-6 ">
-      <span className='protest-riot-regular gradient-text  text-5xl my-5 lg:mt-15'>
+      <span className='protest-riot-regular gradient-text  text-5xl my-5 lg:mt-15 max-md:text-3xl'>
       Learning something new everyday !
       Experience.
       </span>

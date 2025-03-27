@@ -23,10 +23,12 @@ function Card({data}) {
 
     <div className='flex gap-2.5'>
       <div className="h-9 rounded mt-2 text-center border bg-gray-700 p-1 w-10">
-        <img src={github} alt="github" className=''/>
+        <img src={github} alt="github" className=''
+        onClick={()=>window.open("https://"+  data?.github)}/>
       </div>
     <div className="h-9 rounded mt-2  text-center  p-1 w-10  ">
-  <img src={chrome} className="-mt-0.5"alt="" />
+  <img src={chrome} className="-mt-0.5"alt="" 
+  onClick={()=>window.open("https://"+  data?.live,"_blank")}/>
     </div>
 
     </div>
