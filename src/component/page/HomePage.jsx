@@ -33,7 +33,10 @@ function HomePage() {
         <h1 className="text-4xl font-bold protest-riot-regular">I'm Himanshu</h1>
         <div className="text-4xl font-bold flex protest-riot-regular max-sm:ml-[20%] max-md:ml-[20%]">
           Narware 
+          <a href="/public/Himanshu_Narware_Software_Engineer.pdf"  target="_blank"
+  rel="noopener noreferrer" className="hover:text-gray-400">
           <img className='w-10 h-10 ml-2' src="https://imgs.search.brave.com/M0RH-fqdL7UPQwU40oTy_0hfCRRDibS7Ho-kDLVU6u0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4z/Lmljb25maW5kZXIu/Y29tL2RhdGEvaWNv/bnMvc3BhY2UtMjc2/LzUxMi9Bc3Rlcm9p/ZC01MTIucG5n" alt="" />
+    </a>
         </div>
         <p className="protest-riot-regular text-lg">
           I am into{' '}
