@@ -2,6 +2,8 @@ import React from "react";
 import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 import astroid from '../../assets/asteroid-2.svg';
 import '../../index.css'
+// import resume from '';            
+// src\assets\Himanshu_Narware_Software_Engineer.pdf
 
 
 export default function Navbar() {
@@ -10,7 +12,11 @@ export default function Navbar() {
     <nav className=" scroll-smooth z-50 sticky top-0 bg-[#0F0F0F] text-white p-4 flex items-center justify-between font-itim">
       <div className="text-2xl">
         {/* <FaBars /> */}
+        <a href="/public/Himanshu_Narware_Software_Engineer.pdf"  target="_blank"
+  rel="noopener noreferrer" className="hover:text-gray-400">
+
         <img src={astroid} className=" w-12" alt="" />
+        </a>
       </div>
       <div className="hidden md:flex space-x-6 text-lg">
         <a href="#skills" className="hover:text-gray-400">Skills</a>
