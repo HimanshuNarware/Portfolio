@@ -1,11 +1,13 @@
 import React from "react";
 import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 import astroid from '../../assets/asteroid-2.svg';
+import '../../index.css'
 
 
 export default function Navbar() {
+
   return (
-    <nav className="z-50 sticky top-0 bg-[#0F0F0F] text-white p-4 flex items-center justify-between font-itim">
+    <nav className=" scroll-smooth z-50 sticky top-0 bg-[#0F0F0F] text-white p-4 flex items-center justify-between font-itim">
       <div className="text-2xl">
         {/* <FaBars /> */}
         <img src={astroid} className=" w-12" alt="" />
