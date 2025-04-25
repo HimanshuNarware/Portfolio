@@ -1,5 +1,6 @@
 import React from 'react'
 import '../page/utilities.css'
+import blog from '../../assets/blog/blogs.png'
 
 function Blog() {
   return (
@@ -56,16 +57,16 @@ function Blog() {
         >
           {/* Image */}
           <img
-            src="https://himanshunarware.netlify.app/images/blogs/sphehon.png"
+            src={blog}
             alt="Launch your dApp/app using Spheron CLI"
-            className="w-full h-56 object-cover"
+            className="w-full h-56 "
           />
           {/* Caption */}
           <div className="p-4 flex text-cyan-700 justify-between">
             <p className="text-gray-300 text-sm italic">
-              # Launch your dApp/app using Spheron CLI?
+              # Want to see more blogs.?
             </p>
-            <div><a href='https://himanshunarware.hashnode.dev/launch-your-dappapp-using-spheron-cli'
+            <div><a href='https://www.linkedin.com/in/himanshunarware/recent-activity/all/'
             target='_blank'
             >Read..</a></div>
           </div>
