@@ -12,7 +12,7 @@ export default function Navbar() {
     <nav className=" scroll-smooth z-50 sticky top-0 bg-[#0F0F0F] text-white p-4 flex items-center justify-between font-itim">
       <div className="text-2xl">
         {/* <FaBars /> */}
-        <a href="/public/Himanshu_Narware_Software_Engineer.pdf"  target="_blank"
+        <a href="/Himanshu_Narware_Software_Engineer.pdf"  target="_blank"
   rel="noopener noreferrer" className="hover:text-gray-400">
 
         <img src={astroid} className=" w-12" alt="" />
