@@ -28,31 +28,32 @@ function Contact() {
       return
     }
 
-    emailjs
-      .send(
-        "service_vub76ql", // Replace with your Service ID
-        "template_zncgnsw", // Replace with your Template ID
-        formData,
-        "YLmHKt6MwFF_0Bmg4" // Replace with your Public Key
-      )
-      .then(
-        (response) => {
-          // alert("Message Sent Successfully!");
-          // notify()
-          // alert(notify())
-          toast.success('Email send succesfully!')
+    toast.promise(
 
-          setFormData({ name: "", email: "", message: "" }); // Clear form
-        },
-        (error) => {
-          // alert("Failed to send message, try again!");
-          toast.error("Something went wrong!.")
-          console.error("Error:", error);
-        }
-      );
+      emailjs
+      .send(
+        "service_vub76ql", 
+        "template_zncgnsw",
+        formData,
+        "YLmHKt6MwFF_0Bmg4"
+      )
+    ,
+  
+   {
+      loading: 'Sending email...',
+      success: () => {
+        setFormData({ name: "", email: "", message: "" });
+        return <b>Email sent successfully!</b>;
+      },
+      error: <b>Something went wrong!</b>,
+  
+  }
+    
+  
+)
     };
     
-    return (
+  return (
       
       
       <div id="contact" className="min-h-screen bg-[#101010] flex items-center justify-center p-6 ">
