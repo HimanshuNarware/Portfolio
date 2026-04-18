@@ -1,13 +1,29 @@
 {
   "experience": [
       {
+          "organization": "HFN IT SERVICES",
+          "image": "https://logo.clearbit.com/nanoheal.com",
+          "positions": [
+            {
+              "title": "Software Engineer",
+              "duration": "Jun'25 - Present",
+              "location": "Bengaluru",
+              "description": [
+                  "Developed scalable applications using MERN, TypeScript, Docker, and PostgreSQL.",
+                  "Worked with LLM, RAG, WebSockets, and Security.",
+                  "Used Llama Auth and Strapi for secure authentication and content management."
+              ]
+            }
+          ]
+      },
+      {
           "organization": "Web Optimization Software Solution",
          
           "image":"https://gcdnb.pbrd.co/images/c8C8sKwIVtxl.png?o=1",
            "positions": [
             {
               "title": "SDE  ",
-              "duration": "jan'25 - (present)",
+              "duration": "Jan'25 - Jun'25",
               "location": "India",
               "description": [
                   "Developed and optimized scalable, responsive web applications using React.js, Node.js, and UI/UX.",

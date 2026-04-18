@@ -84,11 +84,11 @@ const Skills = () => {
             <div
               max-md:gap-4
               key={index}
-              className="p-4 bg-gray-800 rounded-lg flex items-center justify-center shadow-lg hover:shadow-xl transition-shadow">
+              className="group p-4 bg-gray-800 rounded-lg flex items-center justify-center shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 cursor-pointer">
               <img
                 src={tech.src}
                 alt={tech.alt}
-                className="w-10 h-10 object-contain max-md:w-8 max-md:h-7 max-md:scale-150  "
+                className="w-10 h-10 object-contain max-md:w-8 max-md:h-7 max-md:scale-150 group-hover:scale-110 transition-transform duration-300"
               />
               {/* {console.log(document)} */}
             </div>

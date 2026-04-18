@@ -9,19 +9,18 @@ import Project from './component/projects/Project'
 import Contact from './component/contact/Contact'
 import Blog from './component/blog/Blog'
 import Footer from './component/footer/Footer'
+// import Layout from './component/ui/Layout'
 
 
 // import Test from './Test'
 
 function App() {
 
-  // useEffect(() => {
-  //   const lenis = initLenis();
-  //   return () => lenis.destroy(); // Clean on unmount
-  // }, []);
+  
 
   return (
     <div id="smooth-wrapper">
+      {/* <Layout> */}
     <Navbar/>
      <HomePage/>
      <Skills/>
@@ -30,7 +29,7 @@ function App() {
     <Blog/>
     <Contact/>
     <Footer/>
-   
+        {/* </Layout> */}
     </div>
   )
 }
