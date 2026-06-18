@@ -1,5 +1,127 @@
 @import "tailwindcss";
 
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+@theme {
+  --font-display: "Orbitron", sans-serif;
+  --font-body: "Plus Jakarta Sans", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-brand-bg: #08090b;
+  --color-brand-surface: #111419;
+  --color-brand-surface-hover: #181b22;
+  --color-brand-primary: #00f0ff;
+  --color-brand-secondary: #ff007f;
+  --color-brand-muted: #64748b;
+  --color-brand-border: #222730;
+
+  --shadow-glow-cyan: 0 0 15px rgba(0, 240, 255, 0.15);
+  --shadow-glow-magenta: 0 0 15px rgba(255, 0, 127, 0.15);
+
+  --radius-brand-sm: 4px;
+  --radius-brand-md: 8px;
+  --radius-brand-lg: 16px;
+}
+
+/* Global resets & typography */
 html {
   scroll-behavior: smooth;
+  background-color: var(--color-brand-bg);
+}
+
+body {
+  background-color: var(--color-brand-bg);
+  color: #f1f5f9;
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+/* Utility Animations & Gradients */
+.gradient-text-cyan {
+  background: linear-gradient(135deg, #00f0ff, #e0f7fa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-pink {
+  background: linear-gradient(135deg, #ff007f, #ffe0f0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-primary {
+  background: linear-gradient(135deg, #00f0ff, #ff007f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 0.4; }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+/* Custom Cyber Grid Background */
+.cyber-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(34, 39, 48, 0.15) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(34, 39, 48, 0.15) 1px, transparent 1px);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-brand-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-border);
+  border-radius: var(--radius-brand-sm);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-muted);
+}
+
+/* Meteor Shower Animation */
+@keyframes meteor-fall {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(-40deg);
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(1000px, 1000px, 0) rotate(-40deg);
+    opacity: 0;
+  }
+}
+
+.meteor {
+  position: absolute;
+  width: 1px;
+  height: 70px;
+  pointer-events: none;
+  opacity: 0;
+  transform: rotate(-40deg);
+  animation-name: meteor-fall;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
 }

@@ -1,6 +1,52 @@
 {
   "projects": [
     {
+      "date": "2025-01-15",
+      "name": "CraftURL  - Shorten your url",
+      "github": "https://github.com/HimanshuNarware/short_Url",
+      "live": "short-url-tau-rose.vercel.app/",
+      "image": "https://res.cloudinary.com/dv7s18baq/image/upload/v1781804564/url_shorten_bx1rjd.png",
+      "description": "A production-ready URL shortening platform that provides custom short URLs, configurable expiration dates, intelligent rate limiting, QR code generation, detailed analytics, click tracking, and secure link management for monitoring and optimizing link performance.",
+      "tech":"Typescript, Vite,React.js, Node.js, MongoDB, Express.js, Tailwind CSS,Vercel"
+    },
+    {
+      "date": "2025-02-28",
+      "name": "Hack_Cookies - Free Dev Tool",
+      "github": "https://github.com/HimanshuNarware/Hack_Cookies",
+      "live": "hack-cookies.vercel.app",
+      "image": "https://res.cloudinary.com/dv7s18baq/image/upload/v1781805550/hack_c2_ohrhrh.png",
+      "description": "A free Chrome extension built with React.js and TypeScript that enables developers to create, modify, and delete cookies, session storage, and local storage data through an intuitive interface, simplifying browser storage management and debugging workflows.",
+
+      "tech":"React.js, Node.js, MongoDB, Express.js, Bootstrap, HTML, CSS, CI/CD "
+    },
+     {
+      "date": "2024-01-10",
+      "name": "CareerZunction - Internship Portal",
+      "github": "https://github.com/HimanshuNarware/CareerZunction_Intern",
+      "live": "career-zunction.vercel.app",
+      "image": "https://i.pinimg.com/736x/b3/41/99/b34199143be495a052caf722aa467602.jpg",
+      "description": "A web portal providing 200+ internship opportunities for students,like hackathons and open source programs.",
+      "tech":",JavaScript, React.js, Node.js, MongoDB, Express.js, Bootstrap, HTML, CSS, CI/CD "
+    },
+    
+    {
+  "date": "2024-01-15",
+  "name": "DravyaKosh - Inventory Management System",
+  "github": "https://github.com/HimanshuNarware/DravyaKosh_Inventory_Management_System",
+  "live": "https://dravyakosh.vercel.app/",
+  "image": "https://res.cloudinary.com/dv7s18baq/image/upload/v1781804563/dryakosh_f3t8yd.png",
+  "description": "A comprehensive inventory management system built with React.js and Node.js that enables businesses to efficiently track inventory, manage stock levels, monitor transactions, generate reports, and streamline operations through a centralized dashboard.",
+  "tech": "React.js, Node.js, MongoDB, Express.js, Bootstrap, HTML, CSS, CI/CD"
+},{
+  "date": "2025-05-20",
+  "name": "NariSakti Map - Women's Safety Intelligence Platform",
+  "github": "https://github.com/HimanshuNarware/NariSakti_Map",
+  "live": "https://narisakti-map.pages.dev/",
+  "image": "https://res.cloudinary.com/dv7s18baq/image/upload/v1781804564/nariskti_cthhg3.png",
+  "description": "Developed a geospatial safety intelligence platform using React and TypeScript to analyze and visualize crime-risk patterns across India. Implemented interactive maps, route safety assessment, emergency assistance integration, real-time risk visualization, and GeoJSON-powered regional analytics to enhance public safety awareness.",
+  "tech": "React 18, TypeScript, Vite, Tailwind CSS, HTML, CSS, Leaflet, React-Leaflet, Framer Motion, Lucide React, GeoJSON, Cloudflare Pages"
+},
+    {
       "date": "2023-08-15",
       "name": "DevLabs - Free Tools Platform",
       "github": "https://github.com/HimanshuNarware/Devlabs",
@@ -8,25 +54,7 @@
       "image": "https://i.pinimg.com/736x/4b/cb/d9/4bcbd9d8b2d391803c4c338171589e7f.jpg",
       "description": "A platform offering 400+ free tools for students and developers, built with React.js and Node.js.",
       "tech":"React.js, Node.js, MongoDB, Express.js, Bootstrap, HTML, CSS, CI/CD "
-    },
-    {
-      "date": "2024-01-10",
-      "name": "CareerZunction - Internship Portal",
-      "github": "https://github.com/HimanshuNarware/CareerZunction_Intern",
-      "live": "career-zunction.vercel.app",
-      "image": "https://i.pinimg.com/736x/b3/41/99/b34199143be495a052caf722aa467602.jpg",
-      "description": "A web portal providing 200+ internship opportunities for students,like hackathons and open source programs.",
-      "tech":"React.js, Node.js, MongoDB, Express.js, Bootstrap, HTML, CSS, CI/CD "
-    },
-    {
-      "date": "2024-02-20",
-      "name": "tiny-url, Url Shortener ",
-      "github": "https://github.com/HimanshuNarware/short_Url",
-      "live": "short-url-tau-rose.vercel.app/",
-      "image": "https://i.pinimg.com/736x/b5/af/6c/b5af6cfbb3c08496809c236804b42d6a.jpg",
-      "description": "Free tool to short your url.",
-      "tech":"React.js, Node.js, MongoDB, Express.js, Bootstrap, HTML, CSS, CI/CD "
-    },
+    }, 
     {
       "date": "2024-02-20",
       "name": "ChitChat - Social Media Application",
@@ -34,24 +62,6 @@
       "live": "client-app-two-kappa.vercel.app",
       "image": "https://i.pinimg.com/736x/33/d2/30/33d2304e604d59dd74c4cbfaa1c324aa.jpg",
       "description": "ChitChat is a social media application that use to connect people around the word.",
-      "tech":"React.js, Node.js, MongoDB, Express.js, Bootstrap, HTML, CSS, CI/CD "
-    },
-    {
-      "date": "2024-02-20",
-      "name": "DeDanaDan - News Application",
-      "github": "https://github.com/HimanshuNarware/DeDanaDan_News_App",
-      "live": "https://github.com/HimanshuNarware/DeDanaDan_News_App",
-      "image": "https://i.pinimg.com/736x/ef/ca/19/efca19161c29abad02d4ef5b87f476fc.jpg",
-      "description": "denanadan is news application use to provide news context in 60 word.",
-      "tech":"React.js, Node.js, MongoDB, Express.js, Bootstrap, HTML, CSS, CI/CD "
-    },
-    {
-      "date": "2024-02-20",
-      "name": "Amazone Application",
-      "github": "amazon-clone-rose-five.vercel.app/",
-      "live": "amazon-clone-rose-five.vercel.app/",
-      "image": "https://i.pinimg.com/736x/b8/b7/84/b8b784b22c2b2d8012aa10d3a2399aac.jpg",
-      "description": "Amazone clone.",
       "tech":"React.js, Node.js, MongoDB, Express.js, Bootstrap, HTML, CSS, CI/CD "
     }
   ]
